@@ -1,73 +1,62 @@
-<DOCTYPE html>
-  <html>
-   <head>
-    <meta name="My Blog" content="this is my blog">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title>Blog</title>
-    <link rel="stylesheet" type="text/css" href="Style.css"/>
-   </head>
-   <body>
-   <section>
-   <div class="main">
-    <header>
-      <h1>Blog</h1>    
-    </header>
-    <div class="mainNav">
-      <a href="#Blog">Blog</a>
-      <a href="#AboutME">About Me</a>
-      <a href="#Kilder">Kilder</a>
-  </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Style.css" type="text/css">
+    <title>Drum-kit</title>
+</head>
+<body>
+    <div class="keys">
+        <div data-key="65" class="key">
+            <kbd>A</kbd>
+        <span class="sound">clap</span>
+        </div>
+        <div data-key="83" class="key">
+            <kbd>S</kbd>
+            <span class="sound">hihat</span>
+          </div>
+          <div data-key="68" class="key">
+            <kbd>D</kbd>
+            <span class="sound">kick</span>
+          </div>
+          <div data-key="70" class="key">
+            <kbd>F</kbd>
+            <span class="sound">openhat</span>
+          </div>
+          <div data-key="71" class="key">
+            <kbd>G</kbd>
+            <span class="sound">boom</span>
+          </div>
+          <div data-key="72" class="key">
+            <kbd>H</kbd>
+            <span class="sound">ride</span>
+          </div>
+          <div data-key="74" class="key">
+            <kbd>J</kbd>
+            <span class="sound">snare</span>
+          </div>
+          <div data-key="75" class="key">
+            <kbd>K</kbd>
+            <span class="sound">tom</span>
+          </div>
+          <div data-key="76" class="key">
+            <kbd>L</kbd>
+            <span class="sound">tink</span>
+          </div>
+    </div>
 
-<div>
-    <p class= introduction><cite>I was challenge by fellow student to make a website about whatevere i wanted. As long as it design was <br>
-    as you find this website to be, that it includes a header where the title is and a topnavigation that follows you down and up if you either scroll up or down
-    and that its content is placed in some kinde of a textbox or without.It will look amaturish, since this is the very first webside i have ever made.
-    I tried my best and this is what i got.</cite>
-    </p>
+    <audio data-key="65" src="sounds/boom.wav"></audio>
+    <audio data-key="83" src="sounds/clap.wav"></audio>
+    <audio data-key="68" src="sounds/hihat.wav"></audio>
+    <audio data-key="70" src="sounds/kick.wav"></audio>
+    <audio data-key="71" src="sounds/openhat.wav"></audio>
+    <audio data-key="72" src="sounds/ride.wav"></audio>
+    <audio data-key="74" src="sounds/snare.wav"></audio>
+    <audio data-key="75" src="sounds/tink.wav"></audio>
+    <audio data-key="76" src="sounds/tom.wav"></audio>
     
-</div>
-
-<div class="TheBlog" id="Blog">
-   <h2 >The Blog</h2>
-   <img src="Writting.png" alt="A picture of a book and a pen" width="30%" height="30%">
-    <p >
-      Hi, and welcome to this Blog/website.
-      In this Blog I will be writing about anything that I feel to write about, in could be from current events
-        or other social debates or ideas to change. It could be about history or other things that I burn to write about.
-        This platform will be a place where I attempt to be writer even though I am no were near close to be one. It might look a bit empty, that is because this is just the start. So just expect anything in the future, for you may never know what it will be. May be this is the start of something great or maybe not. Maybe it might have an impact on the social discourse and debates that are taking place in the world.
-      <br><br><br>
-
-      Anyways, this will be the beginning of something interesting.<br><br>
-
-      Thanks for reading this,<br>
-      And Goodbye!
-
-
-  </p>
-
-</div>
-<div id="AboutME">
-<h2>About me</h2>
-  <p>
-  I am a 19 year old student who lives in Norway.
-  I created this website/Blog in order to have a platform or a place where I could express my opinions and thoughts
-  on different things.
-  I am new to this so I apologize if not anything on this website/blog does not work the way I should.
-  I will continue to improve on this as time goes. But in the mean time it might look amaturish.
-  </p>
-</div>
-
-<div id="Kilder">
- <h2>Kilder</h2>
-  <p>
-   kilder på bilde: <br><a href="https://unsplash.com/photos/hjwKMkehBco">https://unsplash.com/photos/hjwKMkehBco</a>
-   <br>Inspirasjon til Blogen : <br><a href="https://poetandoutsider.wordpress.com">https://poetandoutsider.wordpress.com</a>
-  </p>
-</div>
-
-  </body>
-<footer id="Footer">
-<p>Mohamed Yusuf Nur &copy ; 2018 </p>
-</footer>
+    <script src="index.js"></script>
+</body>
 </html>
