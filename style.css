@@ -1,0 +1,134 @@
+*{margin:0; padding: 0; box-sizing: border-box;}
+
+  h2{
+  margin-top: 5%;
+  text-align: left;
+  font-family: sans-serif;
+  margin-left: 10%;
+  border-bottom:solid 5px black;
+
+}
+
+img{
+  margin-top: 3%;
+  margin-left: 10%;
+  box-shadow: 1px 1px thin black;
+  position: center;
+  image-resolution: from-image;
+}
+
+p{
+  text-align: left;
+  font-family: sans-serif;
+  margin-left: 10%;
+  margin-right: 30%;
+  margin-top:2%;
+}
+
+
+
+header{
+  text-align: center;
+  font-size: 24px;
+  padding: 150px;
+  background:linear-gradient(to right,rgba(20, 153, 170, 0.884), rgba(7, 150, 14, 0.89)); 
+  color:white;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+body{
+  /*background://*Url("https://cdn.pixabay.com/photo/2016/02/28/11/42/norway-1226822_1280.jpg");
+  */
+  background-size:cover;
+  background-position: center;
+  image-resolution: from-image;
+
+}
+footer{
+  text-align: center;
+  font-size: 24px;
+  color:white;
+  background-color: blue;
+  font-family: sans-serif;
+  padding: 50px;
+  margin-top: 7%;
+}
+{
+  text-align: center;
+}
+
+
+#title1{
+ margin-left: 10%;
+ border-bottom:solid 5px black;
+
+}
+
+/*class*/
+.introduction{
+  text-align: center;
+  font-family: sans-serif;
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: lightgray;
+  padding:20px;
+
+}
+
+.Title-2{
+  background-color: red;
+  padding: 5px;
+  padding-left:10px;
+}
+.Blog{
+margin-top: 5%;
+}
+
+.Blog < p{
+  margin-left: 10%;
+  margin-right:50;
+
+}
+
+.content{
+
+  top: 5%;
+ margin-top: 5%;
+  margin-left: 10%;
+}
+.Textcontent{
+
+}
+.Blog{
+  margin-top:15%;
+  margin-left: 50px;
+  margin-right: ;
+  text-align: left;
+
+}
+/*this is for the navigation (the codes bellow)*/
+
+.mainNav{
+background-color:darkblue ;
+overflow: hidden;
+position: -webkit-sticky;
+position: sticky;
+top: 0;
+scroll-behavior: smooth;
+}
+.mainNav a{
+  float:left;
+  color:white;
+  text-align: center;
+  padding:18px 17px;
+  text-decoration:none;
+  font-size: 24px;
+  scroll-behavior: smooth;
+}
+
+.mainNav a:hover{
+  background-color:darkred;
+  color:white;
+  scroll-behavior: smooth;
+}
