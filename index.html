@@ -1,31 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="Style.css" type="text/css">
-    <title>Drum-kit</title>
+<title>Page Title</title>
+<link rel="stylesheet" type="text/css" href="style.css">
     <style>
-    html {
-    font-size: 10px;
-    background: url(https://i.imgur.com/b9r5sEL.jpg) bottom center;
-    background-size: cover;
+    .TopNav {
+	  margin-top:25px;
+	    border-bottom:1px solid black;
+    }
+
+    .TopNav a{
+	      margin-right:15px;
+	        text-decoration:none;
+		  color:black;
+	  }
+
+	  
+     #Info h3{
+             border-bottom:1px solid black;
+             width:180px;
   }
   
-  body,html {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-  }
+       #Info {
+	      text-align:left;
+	      margin-top:70px;
+	      margin-left:150px;
+	 }
+
+       #Projects h3{
+	    border-bottom:1px solid black;
+	    width:180px;
+		}
+
+	#Projects{
+	    text-align:left;
+	    margin-top:70px;
+            margin-left:150px;
+	         }
+
+        #contact h3{
+	       border-bottom:1px solid black;
+	       width:180px;	
+               }
+
+	 #contact{
+	     
+             text-align:left;
+	     margin-top:70px;
+	     margin-left:150px;
+	}
+    
+    </style>
+</head>
+<body>
+  <div class="TopNav">
+      <a href="#">Home</a>
+      <a href="#">Projects</a>
+      <a href="#">Contact</a>
+  </div>
   
-  .keys {
-    display: flex;
-    flex: 1;
-    min-height: 100vh;
-    align-items: center;
-    justify-content: center;
-  }
+  <div class="main">
+    <div id="Info">
+      <h3>Info</h3>
+   <p>Hei, mitt navn er Mohamed Yusuf Nur, men kan kalle meg Yusuf.</br>Jeg er en bachelor student i informasjonsteknologi pÃ¥ Oslomet</br>
+  Jeg er en som er nyshjerrig og elsker Ã¥ lÃ¦re. </br> JEg er en som er lett og snakke med, og </br>jeg er en som kan snakke med hvem som helst om hva som helst. </p>
+    </div>
+    <div id="Projects">
+      <h3>Projects</h3>
+      
+</div>
+<div id="contact">
+  <h3>Contact Information</h3>
+</div>
+  </div>
+</body>
+</html>
   
   .key {
     border: .4rem solid black;
